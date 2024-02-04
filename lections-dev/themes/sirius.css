@@ -1,0 +1,128 @@
+/* @theme sirius */
+
+
+@import 'default';
+
+section {
+    background-color: white;
+    background-image: url("themes/img/7.jpg");
+    background-size: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+    text-align: justify;
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section div.slide_title{
+    display: table;
+    position: absolute;
+    top: 7%;
+    height: 10%;
+    width: 71%;
+    left: 24%;
+}
+
+section div.slide_title p{
+    color: #384996;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 28pt;
+    font-weight: bold;
+    line-height: 30pt;
+}
+
+section h2{
+    position: fixed;
+    top: 7%;
+    width: 71%;
+    left: 24%;
+    color: #384996;
+    font-size: 28pt;
+    font-weight: bold;
+    line-height: 30pt;
+    text-align: left;
+}
+
+section.title {
+    background-image: url("themes/img/1.jpg");
+    background-size: 100%;
+}
+
+section.title div.title{
+    position: absolute;
+    left: 5%;
+    bottom: 35%;
+    height: 45%;
+    width: 90%;
+    display: table;
+}
+
+section.title div.title h1{
+    font-size: 40pt;
+    font-weight: bold;
+    width: 100%;
+    color: white;
+    bottom: 0;
+    display: table-cell;
+    vertical-align: bottom;
+    text-align: left;
+}
+
+section.title div.subtitle{
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 65%;
+    bottom: 5%;
+
+    font-size: 25pt;
+    font-weight: bold;
+    color: white;
+}
+
+section.subtitle {
+    background-image: url("themes/img/6.jpg");
+    background-size: 100%;
+}
+
+section.subtitle h1{
+    color: white;
+    text-align: center;
+}
+
+svg[id^="mermaid-"] { 
+    max-width: 960px; 
+    max-height: 600px; 
+}
+
+table{
+    min-width: 100%;
+    table-layout: fixed;
+    overflow-wrap: break-word;
+}
+
+section.columns {
+    padding-top: 12%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+section img{
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+section::after{
+    content: attr(data-marpit-pagination);
+    color: white;
+    position: absolute;
+    bottom: 0.4%;
+}
+
+section.title::after{
+    content: '';
+}
+
