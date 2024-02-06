@@ -6,7 +6,7 @@
 
 ### Ссылки на задания для группы (будут добавляться постепенно):
 1. [Задание 1](https://classroom.github.com/a/MrURiODj)
-2. 
+2. [Задание 2](https://classroom.github.com/a/JZb02f9v)
 3. 
 4. 
 5. 
@@ -15,7 +15,7 @@
 
 ### Ссылки на задания для группы (будут добавляться постепенно):
 1. [Задание 1](https://classroom.github.com/a/750j4GF2)
-2. 
+2. [Задание 2](https://classroom.github.com/a/FLyp2GXC)
 3. 
 4. 
 5. 
